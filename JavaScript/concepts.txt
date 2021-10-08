@@ -1,0 +1,5 @@
+1. Context (this)
+2. Closure
+3. Hoisting
+4. Scoping
+5. Class
