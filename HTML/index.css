@@ -1,0 +1,27 @@
+footer {
+    color: green;
+    border-right: 1px solid green;
+}
+
+header {
+    color: red;
+    border: 1px solid red;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+}
+
+content {
+    border-left: 1px solid red;
+    height: 300px;
+}
+
+a {
+    color: grey;
+}
