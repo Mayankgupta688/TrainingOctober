@@ -1,22 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { HeaderComponent } from "./components/HeaderComponent";
-import { ContentComponent } from "./components/ContentComponent";
-import { FooterComponent } from "./components/FooterComponent";
+import { CurrentTime } from "./components/CurrentTime";
+
+var userDetails = {
+    time: `${new Date().getHours()}: ${new Date().getMinutes()}: ${new Date().getSeconds()}`,
+    userName: "Anshul",
+    userAge: 10
+}
+
+var salaryArray = [10, 20, 30]
 
 ReactDOM.render((
-        <section>
-            <div>
-                <HeaderComponent></HeaderComponent>
-            </div>
-            <div>
-                <ContentComponent></ContentComponent>
-            </div>
-            <div>
-                <FooterComponent></FooterComponent>
-            </div>
-        </section>
-    ), 
-    document.getElementById("root")
-);
+  <CurrentTime userDetails={userDetails} salaryArray={salaryArray}></CurrentTime>
+),  document.getElementsByClassName("my_class")[0])
+
