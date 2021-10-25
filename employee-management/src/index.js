@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import SbiShareValue from "./classComponents/SbiShareValue";
+import TimerHook from "./HooksComponents/TimerHook";
 
-ReactDOM.render(<SbiShareValue></SbiShareValue>, 
+ReactDOM.render(<TimerHook></TimerHook>, 
     document.getElementById("root"));
 
 
