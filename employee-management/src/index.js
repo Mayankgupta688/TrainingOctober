@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TimerHook from "./HooksComponents/TimerHook";
+import TimerHookuseEffect from "./HooksComponents/TimerHookuseEffect";
 
-ReactDOM.render(<TimerHook></TimerHook>, 
+ReactDOM.render(<TimerHookuseEffect></TimerHookuseEffect>, 
     document.getElementById("root"));
 
 
