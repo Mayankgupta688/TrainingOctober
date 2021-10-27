@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TimerHookuseEffect from "./HooksComponents/TimerHookuseEffect";
+import HierarchyImplementation from "./HooksComponents/HierarchyImplementation";
 
-ReactDOM.render(<TimerHookuseEffect></TimerHookuseEffect>, 
+ReactDOM.render(<HierarchyImplementation></HierarchyImplementation>, 
     document.getElementById("root"));
 
 

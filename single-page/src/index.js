@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from "./containers/App";
+import SinglePage from "./containers/SinglePage";
 
 
 ReactDOM.render(
   <div>
-    <App />
+    <SinglePage />
   </div>,
   document.getElementById('root')
 );
